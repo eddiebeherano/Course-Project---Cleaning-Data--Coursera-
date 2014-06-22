@@ -18,3 +18,6 @@ Cleaning data method :
 "f_" are replaced with "Frequency_"
 
 6) Finally , we create a new tidy dataset containing the mean of the variables per subject per activity. 
+
+
+With all the variables, the data has been divided by its range (gyroscope, entropy, etc) to normalise it. When we divide something with a set of units by something else using the same set of units, the units are cancelled out leaving us with a ratio
